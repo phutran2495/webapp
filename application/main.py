@@ -206,7 +206,7 @@ def update_user_account(updatedInput: UpdateUser, credentials: HTTPBasicCredenti
     }
 
 
-@app.get("/books")
+@app.get("/mybooks")
 def get_books():
     result = []
     try:
